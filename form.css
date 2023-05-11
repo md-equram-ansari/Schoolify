@@ -1,0 +1,174 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.split
+{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+.left
+{
+    left: 0;
+    background-color: white;
+}
+.right
+{
+    right: 0;
+    background-color: #0A5085;
+    background-size: auto;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+
+
+}
+.login-form
+{
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  color: aliceblue;
+}
+.login-form h1
+{
+  font-size: 40px;
+  color: #47AE6A;
+  text-align: left;
+  margin: 40px 0;
+  font-weight: 700;
+
+}
+.login-form h2
+{
+  font-size: 20px;
+  color:aliceblue;
+  text-align: left;
+  margin: 15px 0;
+  font-weight: 600;
+
+
+}
+.login-form p
+{
+  font-size: 10px;
+  margin: 12px 0;
+  text-align: right;
+  color: #9AC0DD;
+}
+.login-form input
+{
+  font-size: 11px;
+  width: 100%;
+  padding: 10px 6px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+}
+.login-form button
+{
+  font-size: 19px;
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center;
+  padding: 10px 15px;
+  width: 40%;
+  border-radius: 6px;
+  border: 0;
+  position: relative;
+  display: block;
+  color: #232323;
+  background-color: #D9D9D9;
+}
+h6
+{
+  max-width: 400px;
+  text-align: center;
+  margin: 10px 0;
+  position: relative;
+  padding: 0px 15px;
+  display: block;
+}
+h6:before
+{
+  content: "";
+  width: 140px;
+  height: 1px;
+  display: block;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+h6::after
+{
+  content: "";
+  width: 140px;
+  height: 1px;
+  text-align: right;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+.login-form h7
+{
+  color: aliceblue;
+}
+.social-login
+{
+  display: flex;
+  width: 100%;
+  justify-content: 16px;
+}
+.social-login a
+{
+  display: inline-block;
+  background: aliceblue;
+  color: black;
+  padding: 11px;
+  margin-right: 20px;
+  margin-left: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 15px;
+}
+.social-login a:hover
+{
+  background: #47AE6A;
+  box-shadow: 5px 5px 5px #23232351;
+}
+.social-login a i
+{
+  color: black;
+  margin-right: 10px;
+
+}
+h5
+{
+  position: relative;
+  text-decoration: none;
+  color: aliceblue;
+  left: 150px;
+}

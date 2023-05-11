@@ -1,0 +1,229 @@
+#body{
+    background-color: rgb(255, 255, 255); 
+    margin: auto;
+    width:100%;
+    /* background-color: aqua; */
+    padding-bottom: 0px;
+    
+}
+
+.navbar{
+    /* background-color: rgb(240, 2, 2); */
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 10px;
+    /* width:70%; */
+    /* height: 70px; */
+    /* vertical-align: middle; */
+}
+
+.logo {
+    width: 200px;
+}
+
+.navbutton{
+    margin: 5px;
+    padding: 10px;
+    /* background-color:brown; */
+    float: right;
+    /* align-items: center; */
+    text-decoration: none;
+    font-size: medium;
+}
+
+.navbutton a{
+    /* font-size: 20px; */
+    /* background-color: aliceblue; */
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.profIcon{
+    float: right;
+    width: 24px;
+    /* background-color: aliceblue; */
+    padding: 0px;
+}
+
+/* welcomePage starting from here */
+
+.welcomePage{
+    /* background-color: aqua; */
+    height: 600px;
+    width: 70%;
+    margin: auto;
+    /* max-width:fit-content; */
+    /* color: rgb(255, 155, 155); */
+}
+
+.welcomePage a{
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    float: left;
+    padding: 5% 5% 5% 2%;
+    margin: 7% 5% 7% 5%;
+    color: #00c241;
+    /* background-color: #FBBC05; */
+}
+
+.welcomePage button{
+    /* float: right; */
+    /* size: 100px; */
+    font-size: 90%;
+    background-color: #0A5085;
+    color:white;
+    border: none;
+    border-radius: 10px;
+    padding: 4%;
+}
+
+.welcomePage img{
+    /* background-color: #47AE6A; */
+    position: relative;
+    float: right;
+    margin: 2%;
+    width: 400px;
+    padding: 6% 3%;
+}
+
+
+/* Subjects Page */
+
+
+.subject{
+    /* background-color: #FBBC05; */
+    height: 750px;
+    width: 1000px;
+    justify-content: center;
+    margin: auto;
+}
+.sub{
+    float: left;
+    padding: 4px;
+    /* background-color: #0A5085; */
+}
+
+.subject h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.subDes{ 
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+.subjects{
+    /* align-items: center; */
+    width: fit-content;
+    /* margin: auto; */
+}
+
+
+/* contributor */
+
+.contributor{
+    width: max-content;
+    margin: auto;
+}
+
+.conTitle h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 20px 20px 100px 20px;
+}
+.conBox{
+    width: 980px;
+    height: 600px;
+    left: 240px;
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    /* background: #ffa6a6; */
+    background-color: #fff;
+    box-shadow: 120px 80px 40px 20px #FBBC05;
+    /* border-color: #FBBC05; */
+    /* border-width: 20px; */
+    border-radius: 45px;
+    box-shadow:
+        -10px 0 80px #FCCC05,
+        10px 0 80px #FCCC05;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FBBC05; */
+    /* height: 400px; */
+    /* width:70%; */
+    /* padding: 200px; */
+}
+
+.footer img{
+    margin: 0px;
+    height: 400px;
+    width:100%;
+    padding-top: 100px;
+    /* margin-bottom: 0px; */
+}
+
+.footCon{
+    /* background-color: #00c241; */
+    position: absolute;
+    width:70%;
+    height: 300px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+}
+
+.ftTitle{
+    padding: 2% 5%;
+    font-size: 30px;
+    font-weight: lighter;
+    border-bottom: #ffffff;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+}
+
+.c1{
+    font-weight: lighter;
+    /* background-color:red; */
+    float: left;
+    width:30%;
+    line-height: 22px;
+    padding: 1.5% 22% 2% 4%;
+}
+
+.c{
+    /* background-color: antiquewhite; */
+    font-weight: lighter;
+    font-size: 13px;
+    float: left;
+    padding: 0% 3%;
+    line-height: 25px;
+}
+
+.disc{
+    float: left;
+    /* background-color: #FBBC05; */
+    /* width:100%; */
+    text-align: center;
+    /* margin-top:50px; */
+    padding: 20px 490px 10px 490px;
+    border-bottom: #ffffff;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+}

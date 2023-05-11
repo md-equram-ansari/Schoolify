@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+#body {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 90%;
+}
+
+.navbar {
+    /* background-color: rgb(255, 255, 255); */
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 10px;
+    /* height: 70px; */
+    /* vertical-align: middle; */
+}
+
+.logo {
+    width: 200px;
+}
+
+.navbutton {
+    margin: 5px;
+    padding: 10px;
+    /* background-color:brown; */
+    float: right;
+    /* align-items: center; */
+    text-decoration: none;
+    font-size: medium;
+}
+
+.navbutton a {
+    /* font-size: 20px; */
+    /* background-color: aliceblue; */
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profIcon {
+    float: right;
+    width: 24px;
+    /* background-color: aliceblue; */
+    padding: 0px;
+}
+
+h2 {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 750px;
+    font-size: 30px;
+   top: 120px;
+   text-decoration: none;
+}
+
+.Drop {
+    margin: 0 auto;
+    padding: 0px;
+
+}
+
+.Drop ul {
+    list-style: none;
+    margin-top: 10%;
+
+}
+
+.Drop ul li {
+    background: #0A5085;
+    width: 90px;
+    border: 4px solid;
+    height: 30px;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+    color: aliceblue;
+    font-size: 14px;
+    position: relative;
+    left: 530px;
+    border-radius: 10px;
+    top: -30px;
+
+
+}
+
+.Drop ul li:hover {
+    background: aliceblue;
+
+}
+
+.Drop ul ul {
+    display: none;
+    position: relative;
+    top: 22px;
+    left: -530px;
+}
+.Drop ul ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.Drop ul li:hover>ul {
+    display: block;
+}
+
+.Rectangle1 {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 300px;
+    top: 400px;
+    background: #9AC0DD;
+    border-radius: 15px;
+
+
+}
+.Rectangle2 {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 600px;
+    top: 400px;
+    background: #9AC0DD;
+    border-radius: 15px;
+
+
+}
+.Rectangle3 {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 900px;
+    top: 400px;
+    background: #9AC0DD;
+    border-radius: 15px;
+
+
+}
+.Rectangle4 {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 300px;
+    top: 700px;
+    background: #9AC0DD;
+    border-radius: 15px;
+
+
+}
+.Rectangle5 {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 600px;
+    top: 700px;
+    background: #9AC0DD;
+    border-radius: 15px;
+
+
+}
+.Rectangle6 {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 900px;
+    top: 700px;
+    background: #9AC0DD;
+    border-radius: 15px;
+
+
+}
+
+.Rectangle1 h4 a,.Rectangle2 h4 a,.Rectangle3 h4 a,.Rectangle4 h4 a,.Rectangle5 h4 a,.Rectangle6 h4 a
+{
+    background: #0A5085;
+    width: 65px;
+    border: 4px solid;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    float: right;
+    color: aliceblue;
+    font-size: 9px;
+    position: relative;
+    left: -3px;
+    border-radius: 15px;
+    top: 180px;
+    text-decoration: none;
+}
